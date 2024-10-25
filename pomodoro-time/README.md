@@ -18,3 +18,7 @@
 - **React** utilizando **Vite**: Para una experiencia de desarrollo ágil.
 - **Bootstrap**: Para un diseño atractivo y responsivo.
 - **Jest**: Para realizar pruebas y asegurar el correcto funcionamiento de la aplicación.
+
+---
+
+[![Probar Pomodoro](https://img.shields.io/badge/Probar%20Pomodoro-brightgreen)](https://pomodorotime-two.vercel.app/)
