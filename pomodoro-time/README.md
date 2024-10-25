@@ -1,4 +1,4 @@
-# Timer Pomodoro
+# Pomodoro Timer
 
 ![Timer Pomodoro](pomodoro.png)
 
