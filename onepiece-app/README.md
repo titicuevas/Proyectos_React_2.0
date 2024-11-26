@@ -39,5 +39,5 @@ Este proyecto utiliza un conjunto de tecnologías y herramientas modernas para s
 Puedes acceder a la aplicación desde el siguiente enlace:
 
 <div align="center">
-  [![¡Visitar App One Piece!](https://via.placeholder.com/150x50.png?text=%C2%A1Visitar+App+One+Piece!)](https://onepiece-efhvht70c-henrys-projects-ca9387f6.vercel.app/)
+  [![Probar One Piece App](https://img.shields.io/badge/Probar%20One%20Piece%20App-red)](https://onepiece-efhvht70c-henrys-projects-ca9387f6.vercel.app/)
 </div>
