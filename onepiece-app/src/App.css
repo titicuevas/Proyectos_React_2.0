@@ -1,0 +1,69 @@
+
+body {
+  background-image: url('/images/Fondo.jpg'); /* Ruta a tu imagen */
+  background-size: cover; /* Cubre todo el viewport */
+  background-repeat: no-repeat; /* Evita que se repita */
+  background-attachment: fixed; /* Fija el fondo al hacer scroll */
+  background-position: center; /* Centra la imagen */
+  color: #ffffff; /* Ajusta el color del texto para que sea visible */
+  margin: 0;
+  font-family: Arial, sans-serif; /* Fuente global */
+}
+
+
+
+
+/* Contenedor general */
+.sections-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+  gap: 1.5rem; /* Espaciado entre las tarjetas */
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 2rem;
+}
+
+/* Tarjetas */
+/* Contenedor para animación */
+.section-card {
+  overflow: hidden; /* Oculta el contenido que se salga del contenedor */
+}
+
+.section-card-image {
+  width: 100%;
+  height: auto; /* Altura dinámica basada en la imagen */
+  aspect-ratio: 16 / 9; /* Mantén proporciones comunes como 16:9 */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.section-card:hover .section-card-image {
+  transform: scale(1.1); /* Efecto de zoom */
+}
+
+
+
+/* Títulos */
+.section-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+}
+
+
+@media (max-width: 768px) {
+  .sections-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas en pantallas medianas */
+  }
+}
+
+@media (max-width: 576px) {
+  .sections-container {
+    grid-template-columns: 1fr; /* 1 columna en pantallas pequeñas */
+  }
+}
